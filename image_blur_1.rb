@@ -8,9 +8,7 @@ class Image
 
   def output_image
     @picture.each do |x|
-      x.each do |cell|
-      end
-      puts x.join(" ")
+    puts x.join(" ")
     end
   end
 end
